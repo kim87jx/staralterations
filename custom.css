@@ -1,0 +1,147 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+  @charset "UTF-8";
+/* Add your custom CSS declarations below  */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+
+.navbar-brand {
+  font-family: 'Sofia', cursive;
+  font-size: 30px;
+}
+
+.navbar-light .navbar-brand {
+    color: #8B0000;
+}
+
+
+.nav-item {
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #8B0000;
+}
+
+.btn {
+  background-color: #8B0000;
+   border-color: #8B0000;
+   font-family: 'Nunito', sans-serif;
+}
+
+.btn-secondary {
+  color: whitesmoke;
+}
+
+
+
+.carousel {
+  overflow: hidden;
+  width: 1450px;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  width: 1450px;
+    height: 400px; 
+    overflow: hidden;
+  }
+
+.carousel-caption {
+ position: absolute;
+ margin: 0;
+ color: white;
+ text-align:left;
+top: 28%;
+}
+
+
+  img {
+    width: 1600px;
+    height: 900px;
+  }
+
+
+.img1 {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: justify-all;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.col-lg-6 {
+  text-align: center-left;
+}
+
+.col-lg-4 {
+  border-radius: 50%;
+  width: 500px;
+  height: 200px;
+  text-align: justify-all;
+  display: block;
+    margin-left: auto;
+    margin-right: 100px;
+
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  color: #8B0000;
+}
+
+h2 {
+font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'PT Serif', serif;
+  color: #303030;
+}
+
+h5 {
+  text-align: center;
+}
+
+
+p {text-align: center;
+
+font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+.fw-normal {
+  text-align: justify-all;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checked {
+  color: orange;
+}
+
+div.container {
+  text-align: center;
+}
+ul.myUL {
+display: inline-block;
+  text-align: left;
+}
+
+.map-responsive {
+  text-align: right;
+}
+
